@@ -1,0 +1,57 @@
+@media screen and (max-width: 479px) {
+
+    .header{
+        width: 200px;
+        height: 200px;
+        position: relative;
+    }
+
+    .menu{
+        width: 60px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 20px;
+        right: 70px;
+    }
+
+
+    .main{
+        display: block;
+    }
+
+    .sidebar{
+        width: 200px;
+        height: 100px;
+    }
+
+    .contents{
+        width: 200px;
+        height: 210px;
+        position: relative;
+    }
+
+    .eyecatch1 {
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+
+    .eyecatch2 {
+        position: absolute;
+        top: 80px;
+        left: 30px;
+    }
+
+    .eyecatch3 {
+        position: absolute;
+        bottom: 20px;
+        left: 30px;
+    }
+
+    .footer{
+        width: 200px;
+    }
+    
+}
