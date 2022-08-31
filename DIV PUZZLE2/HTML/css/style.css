@@ -1,0 +1,66 @@
+.header{
+    width: 400px;
+    height: 100px;
+    background-color: #141f40;
+}
+
+/* .main{
+    width: 400px;
+    height: 100px;
+    background-color: blue;
+} */
+
+.main {
+    display: flex;
+    min-width: 400px; 
+    width: 100%; /* 横幅を親要素の幅に合わせる */
+}
+
+.left {
+    width: 150px;
+    height: 250px;
+    background-color: pink;   
+}
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+}
+
+.left1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.left2 {
+    width: 150px;
+    height: 50px;
+    background-color: #dbd400;   
+}
+
+.left3 {
+    width: 150px;
+    height: 100px;
+    background-color: #0093b7;   
+}
+
+.left4 {
+    width: 250px;
+    height: 100px;
+    background-color: #8c2727;   
+}
+
+
+.right1 {
+    width: 100px;
+    height: 150px;
+    background-color: #ff9e6b;
+}
+
+.footer{
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+}
